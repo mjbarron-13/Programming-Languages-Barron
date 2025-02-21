@@ -23,7 +23,7 @@ npm install
 node server.js
 ```
 
-### Run the frontend:  
+### Run the frontend (new terminal):  
 ```sh
 cd frontend
 npm install
