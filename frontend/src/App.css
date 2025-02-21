@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.result {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Color for different results */
+.result.win {
+  color: green;
+}
+
+.result.lose {
+  color: red;
+}
+
+.result.tie {
+  color: black;
+}
+
+.history {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.choices img {
+  width: 100px;
+  height: 100px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button img {
+  width: 80px;
+  height: 80px;
+}
