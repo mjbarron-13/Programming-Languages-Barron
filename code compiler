@@ -1,0 +1,7 @@
+win_bison -d parser.y // parser compiler
+win_flex lexer.l // lexer compiler
+gcc lex.yy.c parser.tab.c -o calc.exe //executable compiler
+
+./calc.exe //exe file
+
+//compiler code
